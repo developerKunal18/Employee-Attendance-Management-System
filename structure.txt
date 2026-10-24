@@ -1,0 +1,26 @@
+1. Features
+- Register and search employees
+- Mark employees present, absent, on leave, or half-day
+- Prevent duplicate attendance entries for the same employee on the same date
+- View daily attendance
+- Calculate attendance percentages
+- Generate monthly attendance reports
+- Track attendance history for individual employees
+- Store records between application runs
+
+2. Project structure
+Create a folder named EmployeeAttendanceManagementSystem.
+EmployeeAttendanceManagementSystem/
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── employee_manager.py
+├── attendance_manager.py
+├── report_manager.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+└── data/
+    ├── employees.json
+    └── attendance.json
